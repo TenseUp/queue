@@ -11,7 +11,7 @@ import math
 import pymongo
 from pymongo import MongoClient
 
-cluster = MongoClient('mongodb+srv://TenseUp:GosuGosu123@cluster0-ip668.mongodb.net/<dbname>?retryWrites=true&w=majority')
+cluster = MongoClient('')
 db = cluster["queue"]
 guilds = db["guilds"]
 
@@ -23,7 +23,7 @@ class usage(commands.Cog, name="usage"):
         self.players = []
         self.channels = []
         self.inqueue = []
-        self.owners = ['564798709045526528', '332443859105873920']
+        self.owners = []
         
         
     @commands.Cog.listener()
