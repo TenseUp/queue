@@ -12,7 +12,7 @@ import os
 import pymongo
 from pymongo import MongoClient
 
-cluster = MongoClient('mongodb+srv://TenseUp:GosuGosu123@cluster0-ip668.mongodb.net/<dbname>?retryWrites=true&w=majority')
+cluster = MongoClient('Your DB')
 db = cluster["queue"]
 guilds = db["guilds"]
 
