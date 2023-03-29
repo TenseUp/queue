@@ -157,4 +157,4 @@ async def getInvite(ctx, guildId:int, guildChannel:int):
 
 discord_key = os.getenv("BOT_TOKEN")
 # keep_alive.keep_alive()
-bot.run('NzI1MDA0NDk1MjAwODQ1ODM1.XvoByg.7hYVbsDrhBEQ3s2t9Ux0GRkuimg', bot=True, reconnect=True)
+bot.run('Your Token', bot=True, reconnect=True)
